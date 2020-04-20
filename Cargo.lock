@@ -110,15 +110,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "hello-rust"
-version = "0.1.0"
-dependencies = [
- "hyper",
- "rust_gpiozero",
- "tokio",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -322,6 +313,15 @@ checksum = "46203554f085ff89c235cd12f7075f3233af9b11ed7c9e16dfe2560d03313ce6"
 dependencies = [
  "hermit-abi",
  "libc",
+]
+
+[[package]]
+name = "pi-internet-checker"
+version = "0.1.0"
+dependencies = [
+ "hyper",
+ "rust_gpiozero",
+ "tokio",
 ]
 
 [[package]]

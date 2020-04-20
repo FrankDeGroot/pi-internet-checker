@@ -32,7 +32,7 @@ async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
                     sleep(Duration::from_secs(1));
                     orange_led.off();
                 }
-            },
+            }
             Err(_) => {
                 red_led.on();
                 sleep(Duration::from_secs(1));
